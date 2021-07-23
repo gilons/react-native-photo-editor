@@ -8,10 +8,10 @@ import com.facebook.react.uimanager.ViewManager
 
 class PhotoEditorPackage : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-        return emptyList()
+        return listOf(PEditorModule(reactContext))
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
-        return listOf(PhotoEditorViewManager())
+        return listOf(PEditorViewManager(reactContext))
     }
 }

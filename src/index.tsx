@@ -1,12 +1,8 @@
-import { requireNativeComponent, ViewStyle } from 'react-native';
-
-type PhotoEditorProps = {
-  color: string;
-  style: ViewStyle;
-};
-
-export const PhotoEditorViewManager = requireNativeComponent<PhotoEditorProps>(
-'PhotoEditorView'
-);
-
-export default PhotoEditorViewManager;
+import { PhotoEditorView } from './photo-editor';
+export default PhotoEditorView;
+export {
+  PhotoEditorView,
+  PhotoEditorRef,
+  EditTextEvent,
+  SaveResultEvent,
+} from './photo-editor';
