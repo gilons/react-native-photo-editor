@@ -1,5 +1,5 @@
 {
-  "name": "react-native-photo-editor",
+  "name": "rn-photo-editor",
   "version": "0.1.0",
   "description": "React Native photo editor is a wrapper around android photo editing library in android and a similar library in IOS",
   "main": "lib/commonjs/index",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/gilons/react-native-photo-editor",
+  "repository": "https://github.com/gilons/rn-photo-editor",
   "author": "Giles <gf.694765457@gmail.com> (https://github.com/gilons)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gilons/react-native-photo-editor/issues"
+    "url": "https://github.com/gilons/rn-photo-editor/issues"
   },
-  "homepage": "https://github.com/gilons/react-native-photo-editor#readme",
+  "homepage": "https://github.com/gilons/rn-photo-editor#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
