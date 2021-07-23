@@ -1,17 +1,17 @@
-# react-native-photo-editor
+# rn-photo-editor
 
 React Native photo editor is a wrapper around android photo editing library in android and a similar library in IOS
 
 ## Installation
 
 ```sh
-npm install react-native-photo-editor
+npm install rn-photo-editor
 ```
 
 ## Usage
 
 ```js
-import PhotoEditor from "react-native-photo-editor";
+import PhotoEditor from "rn-photo-editor";
 import { View } from "react-native"
 import { useRef } from "react"
 
